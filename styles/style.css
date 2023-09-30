@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.one {
+    color: #770000;
+}
+
+.two {
+    color: #ad6712;
+}
+
+.links {
+    display: inline-block;
+    padding-right: 2.5rem;
+}
+
+.title {
+    font-weight: 900;
+    color: rgb(119, 0, 0);
+}
+
+.stitle {
+    font-weight: 600;
+    color: #ad6712;
+}
+
+.ingred,
+.steps {
+    font-weight: 400;
+    font-size: 22px;
+    color: #770000;
+}
+
+.steps {
+    color: #ad6712;
+}
