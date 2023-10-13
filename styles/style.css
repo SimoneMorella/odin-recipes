@@ -1,6 +1,16 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border: 2px solid red;
+}
+.intro {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.intro .text {
+    display: inline;
 }
 
 .one {
@@ -9,6 +19,14 @@
 
 .two {
     color: #ad6712;
+}
+
+.firsta,
+.firstb {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 120px;
+    vertical-align: top;
 }
 
 .links {
@@ -35,4 +53,8 @@
 
 .steps {
     color: #ad6712;
+}
+
+.test {
+    display: inline;
 }
