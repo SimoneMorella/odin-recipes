@@ -1,0 +1,78 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(119, 0, 0);
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.8s;
+}
+
+.intro:hover {
+    background-color: bisque;
+}
+
+.intro img {
+    display: inline;
+    vertical-align: middle;
+    border-radius: 3%;
+}
+
+.intro .text {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro .text .stitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ad6712;
+}
+
+.procedure {
+    text-align: center;
+    padding: 20px;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.8s;
+}
+
+.procedure:hover {
+    background-color: bisque;
+}
+
+.procedure .firsta {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.procedure .firsta .ingred,
+.procedure .firsta .steps {
+    font-weight: 400;
+    font-size: 32px;
+    color: #770000;
+}
+
+.procedure .firsta .steps {
+    color: #ad6712;
+}
+
